@@ -78,3 +78,45 @@ friends.unshift("Sumi");
 // removing 2 elements from index 1.
 
 
+for(let i = 0; i < friends.length; i++){
+    const element = friends[i];
+    // console.log(element);
+}
+
+
+// functions
+
+function add(a, b){
+    // console.log(...arguments)
+    const sum = a + b;
+    return sum;
+}
+
+const result =  add(213, 35);
+// console.log(result);
+
+
+// objects
+
+const person = {
+    name: "sumi Akter",
+    age: 22,
+    profession: "student",
+    Id : 123445,
+    friends: friends,
+    address: {
+        street: "khilgaon",
+        city:"Dhaka",
+        country: "Bangladesh",
+    }
+}
+
+// console.log(person);
+// console.log(person.address.city);
+// accessing object property by dot notation.
+
+// console.log(person["address"]["country"]);
+// accessing object property by bracket notation.
+
+// person.age = 23;
+// re-assigning object property value.
