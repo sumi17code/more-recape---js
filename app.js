@@ -29,9 +29,37 @@ const country = "Bangladesh";
 const num = 20;
 
 if(num >= 15 && num <= 25){
-    console.log ("yes, the number is between 15 and 25");
+    // console.log ("yes, the number is between 15 and 25");
 }
-else
+else{
+    // console.log("no, the number is not between 15 and 25");
+}
 
+// array
+
+const friends = ["Sumi", "Sultana", "Salma", "Sohana"];
+
+// console.log(friends);
+
+// console.log(friends[3]);   
+// acessesing array element by index number.
+
+friends.push("sadia");
+// console.log(friends);
+// adding an element to the array on the last position.
+
+
+friends.pop();
+// console.log(friends);
+
+// removing the last element of the array.
+
+friends.shift("Sumi");
+// console.log(friends);
+// removing the first element of the array.
+
+friends.unshift("Sumi");
+// console.log(friends);
+// adding an element to the first position of the array.
 
 
