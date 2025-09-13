@@ -35,6 +35,13 @@ else{
     // console.log("no, the number is not between 15 and 25");
 }
 
+if(5 > 3){
+    // console.log(true);
+}
+else{
+    // console.log(false);
+}
+
 // array
 
 const friends = ["Sumi", "Sultana", "Salma", "Sohana"];
@@ -61,5 +68,13 @@ friends.shift("Sumi");
 friends.unshift("Sumi");
 // console.log(friends);
 // adding an element to the first position of the array.
+
+
+// console.log(friends.slice(2, 4));
+// slicing the array from index 2 to index 4 but not including index 4.
+
+
+// console.log(friends.splice(1, 2));
+// removing 2 elements from index 1.
 
 
