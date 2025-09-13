@@ -118,5 +118,10 @@ const person = {
 // console.log(person["address"]["country"]);
 // accessing object property by bracket notation.
 
-// person.age = 23;
+person.age = 23;
 // re-assigning object property value.
+
+person.email = "adskh@gmail.com";
+// adding new property to the object.
+
+// console.log(person);
