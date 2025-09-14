@@ -23,4 +23,6 @@ const person = {
 
 const {name, age, address, Email, profession, friends} = person;
 // console.log(address, friends)
-console.log(Email, profession);
+// console.log(Email, profession);
+
+//  we use destructuring method for the code short and easy to read .  
